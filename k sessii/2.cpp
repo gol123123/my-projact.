@@ -7,10 +7,10 @@ class proisvedenie
         float num_1;
 	    float num_2;
 	public:
-		void Setnum(float Num_1, float Num_2)
+		void Setnum(float num_1, float num_2)
 		{
-			num_1 = Num_1;
-			num_2 = Num_2;	
+			this->num_1 = num_1;
+			this->num_2 = num_2;	
 		}
 		float res()
 		{
